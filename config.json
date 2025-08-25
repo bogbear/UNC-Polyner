@@ -5,8 +5,14 @@
 		"out_dir": "./output",
 		"voxel_size": 0.1,
 		"SOD" : 362,
+		"SDD": 652,
 		"h": 256,
-		"w": 256
+		"w": 256,
+		"d": 256,
+		"detector_height": 400,
+		"detector_width": 400,
+		"num_projections": 360,
+		"projection_mode": "cbct"
 	},
 	"train": {
 		"gpu": 0,
@@ -34,6 +40,7 @@
 		"activation": "ReLU",
 		"output_activation": "Squareplus",
 		"n_neurons": 128,
-		"n_hidden_layers": 2
+		"n_hidden_layers": 3,
+		"input_dims": 3
 	}
 }
