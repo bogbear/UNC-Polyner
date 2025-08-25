@@ -1,0 +1,45 @@
+# CBCT Polyner Requirements
+# Core dependencies for CBCT functionality
+
+# Deep Learning Framework
+torch>=1.10.0
+torchvision>=0.11.0
+
+# Neural Network Acceleration
+tinycudann>=1.6
+
+# Medical Image Processing
+SimpleITK>=2.1.0
+nibabel>=3.2.0
+
+# Scientific Computing
+numpy>=1.20.0
+scipy>=1.7.0
+scikit-image>=0.18.0
+
+# Data Processing and Visualization
+tqdm>=4.60.0
+matplotlib>=3.3.0
+imageio>=2.9.0
+
+# Configuration and Utilities
+commentjson>=1.2.0
+pyyaml>=5.4.0
+argparse>=1.4.0
+
+# Testing Framework
+pytest>=6.2.0
+unittest-xml-reporting>=3.2.0
+
+# Development Tools
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.910
+
+# Optional GPU Acceleration
+# cupy>=9.0.0  # Uncomment for CUDA acceleration
+# numba>=0.53.0  # Uncomment for JIT compilation
+
+# Memory Profiling (for large volumes)
+# memory_profiler>=0.58.0  # Uncomment for memory analysis
+# psutil>=5.8.0  # Uncomment for system monitoring
